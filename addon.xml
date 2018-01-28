@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.tk99" name="TK99 Repo" version="1.0" provider-name="TK99">
 	<extension point="xbmc.addon.repository" name="TK99">
-		<info compressed="false">http://tkwizi.com/zips/addons.xml</info>
-		<checksum>http://tkwizi.com/zips/addons.xml.md5</checksum>
-		<datadir zip="true">http://tkwizi.com/zips/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/tk99/tkrepo/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/tk99/tkrepo/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/tk99/tkrepo/master/zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>TK99 Repo</summary>
