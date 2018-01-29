@@ -1,0 +1,13 @@
+8
+|||
+Latest Kodi 16 & 17 Build Updates [COLOR white]18th June 2017[/COLOR]  
+
+For the changelog visit the website [COLOR white]tkwizi.com[/COLOR]
+
+Due to the upcoming closure of the streamtvbox addon I have removed the streamtvbox build from the wizard.  Once a new provider has been found a new build will be released based on their addon.  At the moment this is looking likely to be either sportsnationHD or UltimateMania.
+The fluid build has also been removed but you can now find the real-debrid section from this build in the main family and adult builds
+
+Thank you to those that have donated towards the regular upkeep of the build.  If anyone else wishes to donate you can do so at the website [COLOR white]http://paypal.me/tksoftware[/COLOR] add your username only as a message so we know who its from.
+
+Highlight and press the dismiss button in the bottom right corner of the screen to close this popup.
+ 
