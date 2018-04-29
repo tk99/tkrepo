@@ -60,50 +60,7 @@
     <website></website>
   </extension>
 </addon>
-<addon id="plugin.video.tkhelp"
-	name=".TK Video Help Guides"
-	version="1.0.2"
-	provider-name="Teknokat">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">TK Video Help Guides</summary>
-    <description lang="en">Videos to help you use this build</description>
-    <platform>all</platform>
-    <forum></forum>
-    <website></website>
-  </extension>
-</addon>
-<addon id="plugin.program.tknotify" version="1.0.5"
-       name="TKnotify" provider-name="TK99">
-  <requires>
-  	<import addon="xbmc.python" version="2.1.0"/>
-  	<import addon="script.module.addon.common" optional="true" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup">
-  </extension>
-  <extension point="xbmc.addon.metadata">
-  	<summary>Build News</summary>
-  	<description></description>
-  	<disclaimer></disclaimer>
-  	<language>en</language>
-  	<platform>all</platform>
-  	<forum></forum>
-  	<website></website>
-  	<source></source>
-  	<email></email>
-  </extension>
-  </addon>
-  <addon id="plugin.video.releaseBB" version="0.6.0" name="Release[COLOR orange][B]BB[/B][/COLOR]" provider-name="@MrEntertainRepo">
+<addon id="plugin.video.releaseBB" version="0.6.0" name="Release[COLOR orange][B]BB[/B][/COLOR]" provider-name="@MrEntertainRepo">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.t0mm0.common" version="2.1.1"/>
@@ -161,5 +118,80 @@
     <platform>all</platform>
     <source>https://github.com/mjpbaywolf/plugin.video.wwen</source>
   </extension>
+</addon>
+<addon id="plugin.video.bbciplayerw" name="BBC iPlayer wkd" version="0.0.1" provider-name="Unknown">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">BBC iPlayer Wicked</summary>
+    <description lang="en">BBC iPlayer Wicked</description>
+    <platform>all</platform>
+    <news>Fixed search</news>
+  </extension>
+</addon>
+<addon id="plugin.video.footballreplaysw" name="Football Replays wkd" version="0.0.1" provider-name="unknown">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="0.0.1"/>
+    <import addon="script.module.beautifulsoup4" version="0.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Football Replays</summary>
+    <description lang="en">Football Replays</description>
+    <disclaimer lang="en">Watch football replays from around the globe</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.video.itvw" name="ITV wkd" version="0.0.1" provider-name="unknown">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Plugin for ITV Live Tv Player</summary>
+    <description>ITV Player Front End</description>
+    <news>Fixed regex so video links are now being picked up correctly</news>
+  </extension>
+</addon>
+<addon id="plugin.video.uktvplayw" name="UKTV Play wkd" version="0.0.1" provider-name="unknown">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">UKTV Play</summary>
+    <description lang="en">Watch All Your Favourite UK TV from Dave,Really,Yesterday and Drama</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.video.wkdmedia" version="1.0" name="Wicked Media" provider-name="Wicked Media">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.addon.common" optional="true" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup">
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Wicked Media</summary>
+        <description>Live TV / PPV / Sports / Kids / Movies / Entertainment</description>
+        <disclaimer></disclaimer>
+        <language>en</language>
+        <platform>all</platform>
+    </extension>
 </addon>
 </addons>

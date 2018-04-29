@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.bbciplayerw" name="BBC iPlayer wkd" version="0.0.1" provider-name="Unknown">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">BBC iPlayer Wicked</summary>
+    <description lang="en">BBC iPlayer Wicked</description>
+    <platform>all</platform>
+    <news>Fixed search</news>
+  </extension>
+</addon>
