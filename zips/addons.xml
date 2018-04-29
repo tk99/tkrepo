@@ -119,7 +119,7 @@
     <source>https://github.com/mjpbaywolf/plugin.video.wwen</source>
   </extension>
 </addon>
-<addon id="plugin.video.bbciplayerw" name="BBC iPlayer wkd" version="0.0.1" provider-name="Unknown">
+<addon id="plugin.video.bbciplayerw" name="BBC iPlayer wkd" version="0.0.2" provider-name="Unknown">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -149,7 +149,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.video.itvw" name="ITV wkd" version="0.0.1" provider-name="unknown">
+<addon id="plugin.video.itvw" name="ITV wkd" version="0.0.2" provider-name="unknown">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
