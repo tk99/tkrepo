@@ -1,5 +1,5 @@
 <?xml version="1.1" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.mviptv" name="Maverick IPTV" version="0.0.1" provider-name="TK">
+<addon id="plugin.video.mviptv" name="Maverick IPTV" version="0.0.2" provider-name="TK">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -9,7 +9,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Maverrick IPTV Addon</summary>
+    <summary lang="en">Maverick IPTV Addon</summary>
     <language>en</language>
     <description lang="en">IPTV and VOD</description>
      <platform>all</platform>

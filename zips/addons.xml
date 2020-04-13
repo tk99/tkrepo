@@ -82,22 +82,36 @@
     <source>https://github.com/mjpbaywolf/plugin.video.wwen</source>
   </extension>
 </addon>
-<addon id="plugin.video.wkdmedia" version="1.3" name="Wicked Media" provider-name="Wicked Media">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.addon.common" optional="true" />     
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
+<addon id="plugin.video.neptuneiptv" name="Neptune IPTV" version="0.0.1" provider-name="TK">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
         <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="startup">
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Wicked Media</summary>
-        <description>Live TV / PPV / Sports / Kids / Movies / Entertainment</description>
-        <disclaimer></disclaimer>
-        <language>en</language>
-        <platform>all</platform>
-    </extension>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Neptune Addon</summary>
+    <language>en</language>
+    <description lang="en">IPTV and VOD</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.video.mviptv" name="Maverick IPTV" version="0.0.2" provider-name="TK">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Maverick IPTV Addon</summary>
+    <language>en</language>
+    <description lang="en">IPTV and VOD</description>
+     <platform>all</platform>
+  </extension>
 </addon>
 </addons>
